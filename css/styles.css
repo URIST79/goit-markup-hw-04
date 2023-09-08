@@ -72,7 +72,7 @@ p {
   margin-right: auto;
 }
 .header-item {
-  color: #404bbf;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -85,11 +85,15 @@ p {
 .header-item:focus {
   color: #404bbf;
 }
-.header-item::after {
+.header-item-active {
+  color: #404bbf;
+}
+.header-item-active::after {
   content: '';
   display: block;
   width: 100%;
   height: 4px;
+  color: #404bbf;
   background: #404bbf;
   border-radius: 2px;
   margin-top: 20px;
